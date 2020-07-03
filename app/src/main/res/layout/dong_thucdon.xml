@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="#CCCCC1"
+    android:layout_marginTop="10dp"
+    >
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/thucdon1"
+        android:id="@+id/image"
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:maxLines="2"
+        android:id="@+id/tv_tenthucdon"
+        android:textColor="#0B0A0A"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Thực đơn cho người mới đầu"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_mota"
+        android:text="Nguyên liệu gồm:\n
+            - Canh cải nấu tôm\n
+            - Thịt viên nấm sốt cà chua\n
+            - Bánh mỳ cuộn tôm chiên"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@id/tv_tenthucdon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    <ImageView-->
+
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:id="@+id/image_next"-->
+<!--&lt;!&ndash;        android:src="@drawable/ic_next"&ndash;&gt;-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChedoanActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+
+        android:background="#637ABF"
+        app:title="chế độ ăn"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:text="    Để bổ sung các chất dinh dưỡng cần thiết cũng như đảm bảo đạt hiệu quả sau khi tập luyện, chế độ ăn cần những loại thực phẩm cho người luyện tâp như sau:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:src="@drawable/thucpham1"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/image"
+            android:layout_width="350dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text=" Chế độ ăn cho người tập luyện như thế nào?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="
+Để bổ sung các chất dinh dưỡng cần thiết cũng như đảm bảo đạt hiệu quả sau khi tập luyện, chế độ ăn cần những loại thực phẩm cho người tập luyện như sau:\n  - Thịt, gia cầm, cá: thịt bò xay, thịt lợn than, ức gà, cá hồi, cá rô phi.\n
+
+- Sữa: sữa chua, phô mai, sữa ít chất béo\n
+
+- Các loại ngũ cốc: Bánh mì, ngũ cốc, bánh qui, bột yến mạch, bỏng ngô, gạo\n
+
+- Hoa quả: cam, táo, chuối, nho, lê, đào, dưa hấu\n
+
+- Củ: khoai tây, ngô, đậu xanh, sắn\n
+
+- Rau: bông cải xanh, rau bina, rau xà lách, cà chua, đậu xanh, dưa chuột, bí, măng, ớt, nấm\n
+
+- Các loại hạt: hạnh nhân, quả óc chó, hạt hướng dương, hạt lanh\n
+
+- Các loại đậu: đậu xanh, đậu đen\n
+
+- Dầu: dầu oliu, dầu bơ, dầu hạt lanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Người tập luyện nên hạn chế ăn gì?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="  - Rượu: Rượu có thể ảnh hưởng tiêu cực đến khả năng xây dựng cơ bắp và giảm mỡ của bạn, đặt biệt nếu bạn tiêu thụ quá mức.\n
+
+ - Đường: Những loại thực phẩm có chứa nhiều đường như kẹo, bánh rán, kem, đồ uống có đường như soda thường cung cấp nhiều calo nhưng lại ít chất dinh dưỡng.\n
+
+ - Đồ ăn chiên rán: Những loại đồ ăn như cá chiên, khoai tây chiên, hành tây chiên hay sữa đông phô mai đều có thể thúc đẩy khả năng bị viêm và thậm chí mắc bệnh nếu tiêu thụ quá mức."
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

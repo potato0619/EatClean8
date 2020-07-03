@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThucdonActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#637ABF"
+        app:title="Thực đơn cho người tập luyện"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_marginTop="5dp"
+    android:layout_below="@+id/toolbar"
+    android:id="@+id/recycleview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</RelativeLayout>
